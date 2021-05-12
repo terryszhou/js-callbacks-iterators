@@ -9,3 +9,11 @@
 let foods = ["pizza", "tacos", "ice cream", "sushi"];
 
 // your code here
+
+let foodsILike = foods.forEach(food => console.log(`I like ${food}.`))
+
+// OR
+
+// let foodsILike2 = foods.filter(food => food !== "sushi")
+
+let foodsILike3 = (foods.filter(food => food !== "sushi")).forEach(food => console.log(`I like ${food}.`))
